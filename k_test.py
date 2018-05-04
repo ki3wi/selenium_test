@@ -40,7 +40,7 @@ driver.find_element_by_xpath("//div[contains(@id,'_mail_emailinput')]/input").se
 driver.find_element_by_xpath("//div[@aria-label='邮件主题输入框，请输入邮件主题']/input").send_keys(u"新邮件")
 driver.switch_to.frame(driver.find_element_by_xpath("//iframe[@tabindex=1]"))
 editBox = driver.find_element_by_xpath("/html/body")
-editBox.send_keys(u'这是一封python写的自动化脚本')
+editBox.send_keys(u'这是自动发送的邮件')
 driver.switch_to.default_content()
 print u'写信完成'
 driver.find_element_by_xpath("//header//span[text()='发送']").click()
