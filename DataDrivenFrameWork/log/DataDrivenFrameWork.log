@@ -1,0 +1,90 @@
+Wed, 02 May 2018 12:27:23 testlog.py[line:3] INFO 126邮箱添加联系人数据驱动开始测试...
+Wed, 02 May 2018 12:34:25 testlog.py[line:3] INFO 126邮箱添加联系人数据驱动开始测试...
+Wed, 02 May 2018 12:34:25 testlog.py[line:4] DEBUG 用户登录后，断言页面关键字“收 信”失败异常信息：
+Wed, 02 May 2018 16:13:08 TestMail126AddContacts.py[line:220] INFO 126邮箱添加联系人数据驱动开始测试...
+Wed, 02 May 2018 16:13:41 TestMail126AddContacts.py[line:245] INFO 启动浏览器，访问126邮箱主页
+Wed, 02 May 2018 16:23:10 TestMail126AddContacts.py[line:254] INFO 用户shan_5210登录后，断言页面关键字“收 信”成功
+Wed, 02 May 2018 16:23:57 TestMail126AddContacts.py[line:294] INFO 添加联系人zhangyi成功
+Wed, 02 May 2018 16:24:04 TestMail126AddContacts.py[line:308] INFO 断言关键字zhangyi@qq.com成功
+Wed, 02 May 2018 16:25:02 TestMail126AddContacts.py[line:294] INFO 添加联系人张二成功
+Wed, 02 May 2018 16:25:07 TestMail126AddContacts.py[line:308] INFO 断言关键字zhanger@qq.com成功
+Wed, 02 May 2018 16:25:08 TestMail126AddContacts.py[line:311] INFO 联系人zhangsan被忽略执行！
+Wed, 02 May 2018 16:25:45 TestMail126AddContacts.py[line:294] INFO 添加联系人张四成功
+Wed, 02 May 2018 16:25:50 TestMail126AddContacts.py[line:308] INFO 断言关键字张四成功
+Wed, 02 May 2018 16:25:56 TestMail126AddContacts.py[line:324] INFO 用户shan_5210被忽略执行！
+Wed, 02 May 2018 16:28:52 TestMail126AddContacts.py[line:220] INFO 126邮箱添加联系人数据驱动开始测试...
+Wed, 02 May 2018 16:29:01 TestMail126AddContacts.py[line:245] INFO 启动浏览器，访问126邮箱主页
+Wed, 02 May 2018 16:29:04 TestMail126AddContacts.py[line:254] INFO 用户shan_5210登录后，断言页面关键字“收 信”成功
+Wed, 02 May 2018 16:29:09 TestMail126AddContacts.py[line:294] INFO 添加联系人zhangyi成功
+Wed, 02 May 2018 16:29:09 TestMail126AddContacts.py[line:308] INFO 断言关键字zhangyi@qq.com成功
+Wed, 02 May 2018 16:29:13 TestMail126AddContacts.py[line:294] INFO 添加联系人张二成功
+Wed, 02 May 2018 16:29:14 TestMail126AddContacts.py[line:308] INFO 断言关键字zhanger@qq.com成功
+Wed, 02 May 2018 16:29:14 TestMail126AddContacts.py[line:311] INFO 联系人zhangsan被忽略执行！
+Wed, 02 May 2018 16:29:18 TestMail126AddContacts.py[line:294] INFO 添加联系人张四成功
+Wed, 02 May 2018 16:29:18 TestMail126AddContacts.py[line:308] INFO 断言关键字张四成功
+Wed, 02 May 2018 16:29:18 TestMail126AddContacts.py[line:324] INFO 用户shan_5210被忽略执行！
+Wed, 02 May 2018 17:13:49 TestMail126AddContacts.py[line:220] INFO 126邮箱添加联系人数据驱动开始测试...
+Wed, 02 May 2018 17:14:25 TestMail126AddContacts.py[line:220] INFO 126邮箱添加联系人数据驱动开始测试...
+Wed, 02 May 2018 17:19:02 TestMail126AddContacts.py[line:220] INFO 126邮箱添加联系人数据驱动开始测试...
+Wed, 02 May 2018 17:19:25 TestMail126AddContacts.py[line:220] INFO 126邮箱添加联系人数据驱动开始测试...
+Wed, 02 May 2018 17:27:59 TestMail126AddContacts.py[line:220] INFO 126邮箱添加联系人数据驱动开始测试...
+Wed, 02 May 2018 17:31:53 TestMail126AddContacts.py[line:220] INFO 126邮箱添加联系人数据驱动开始测试...
+Wed, 02 May 2018 17:34:38 TestMail126AddContacts.py[line:220] INFO 126邮箱添加联系人数据驱动开始测试...
+Wed, 02 May 2018 17:34:38 TestMail126AddContacts.py[line:324] INFO 用户shan_5210被忽略执行！
+Wed, 02 May 2018 17:34:38 TestMail126AddContacts.py[line:327] DEBUG 数据驱动框架主程序发生异常，异常信息: Traceback (most recent call last):
+  File "C:/Users/ki3wi/PycharmProjects/selenium_test/DataDrivenFrameWork/testScripts/TestMail126AddContacts.py", line 325, in test126MailAddContacts
+    driver.quit()
+UnboundLocalError: local variable 'driver' referenced before assignment
+
+Wed, 02 May 2018 17:35:18 TestMail126AddContacts.py[line:220] INFO 126邮箱添加联系人数据驱动开始测试...
+Wed, 02 May 2018 17:35:18 TestMail126AddContacts.py[line:324] INFO 用户shanqm被忽略执行！
+Wed, 02 May 2018 17:35:18 TestMail126AddContacts.py[line:327] DEBUG 数据驱动框架主程序发生异常，异常信息: Traceback (most recent call last):
+  File "C:/Users/ki3wi/PycharmProjects/selenium_test/DataDrivenFrameWork/testScripts/TestMail126AddContacts.py", line 325, in test126MailAddContacts
+    driver.quit()
+UnboundLocalError: local variable 'driver' referenced before assignment
+
+Wed, 02 May 2018 17:35:57 TestMail126AddContacts.py[line:220] INFO 126邮箱添加联系人数据驱动开始测试...
+Wed, 02 May 2018 17:35:57 TestMail126AddContacts.py[line:324] INFO 用户shanqm被忽略执行！
+Wed, 02 May 2018 17:36:07 TestMail126AddContacts.py[line:245] INFO 启动浏览器，访问126邮箱主页
+Wed, 02 May 2018 17:36:10 TestMail126AddContacts.py[line:254] INFO 用户shan_5210登录后，断言页面关键字“收 信”成功
+Wed, 02 May 2018 17:36:16 TestMail126AddContacts.py[line:294] INFO 添加联系人zhangyi成功
+Wed, 02 May 2018 17:36:16 TestMail126AddContacts.py[line:326] DEBUG 数据驱动框架主程序发生异常，异常信息: Traceback (most recent call last):
+  File "C:/Users/ki3wi/PycharmProjects/selenium_test/DataDrivenFrameWork/testScripts/TestMail126AddContacts.py", line 296, in test126MailAddContacts
+    excelObj.writeCellCurrentTime(dataSheet,rowNo=id + 2,colsNo = contacts_runTime)
+  File "C:\Users\ki3wi\PycharmProjects\selenium_test\DataDrivenFrameWork\util\ParseExcel.py", line 151, in writeCellCurrentTime
+    raise e
+IOError: [Errno 13] Permission denied: u'C:\\Users\\ki3wi\\PycharmProjects\\selenium_test\\DataDrivenFrameWork\\testData\\126\u90ae\u7bb1\u8054\u7cfb\u4eba.xlsx'
+
+Wed, 02 May 2018 17:37:04 TestMail126AddContacts.py[line:220] INFO 126邮箱添加联系人数据驱动开始测试...
+Wed, 02 May 2018 17:37:04 TestMail126AddContacts.py[line:324] INFO 用户shanqm被忽略执行！
+Wed, 02 May 2018 17:37:14 TestMail126AddContacts.py[line:245] INFO 启动浏览器，访问126邮箱主页
+Wed, 02 May 2018 17:37:17 TestMail126AddContacts.py[line:254] INFO 用户shan_5210登录后，断言页面关键字“收 信”成功
+Wed, 02 May 2018 17:37:22 TestMail126AddContacts.py[line:294] INFO 添加联系人zhangyi成功
+Wed, 02 May 2018 17:37:22 TestMail126AddContacts.py[line:308] INFO 断言关键字zhangyi@qq.com成功
+Wed, 02 May 2018 17:37:27 TestMail126AddContacts.py[line:294] INFO 添加联系人张二成功
+Wed, 02 May 2018 17:37:27 TestMail126AddContacts.py[line:308] INFO 断言关键字zhanger@qq.com成功
+Wed, 02 May 2018 17:37:27 TestMail126AddContacts.py[line:311] INFO 联系人zhangsan被忽略执行！
+Wed, 02 May 2018 17:37:31 TestMail126AddContacts.py[line:294] INFO 添加联系人张四成功
+Wed, 02 May 2018 17:37:31 TestMail126AddContacts.py[line:308] INFO 断言关键字张四成功
+Wed, 02 May 2018 17:38:14 TestMail126AddContacts.py[line:220] INFO 126邮箱添加联系人数据驱动开始测试...
+Wed, 02 May 2018 17:38:14 TestMail126AddContacts.py[line:324] INFO 用户shanqm被忽略执行！
+Wed, 02 May 2018 17:38:21 TestMail126AddContacts.py[line:245] INFO 启动浏览器，访问126邮箱主页
+Wed, 02 May 2018 17:38:45 TestMail126AddContacts.py[line:254] INFO 用户shan_5210登录后，断言页面关键字“收 信”成功
+Wed, 02 May 2018 17:38:50 TestMail126AddContacts.py[line:294] INFO 添加联系人zhangyi成功
+Wed, 02 May 2018 17:38:50 TestMail126AddContacts.py[line:308] INFO 断言关键字zhangyi@qq.com成功
+Wed, 02 May 2018 17:38:54 TestMail126AddContacts.py[line:294] INFO 添加联系人张二成功
+Wed, 02 May 2018 17:38:54 TestMail126AddContacts.py[line:308] INFO 断言关键字zhanger@qq.com成功
+Wed, 02 May 2018 17:38:54 TestMail126AddContacts.py[line:311] INFO 联系人zhangsan被忽略执行！
+Wed, 02 May 2018 17:38:59 TestMail126AddContacts.py[line:294] INFO 添加联系人张四成功
+Wed, 02 May 2018 17:38:59 TestMail126AddContacts.py[line:308] INFO 断言关键字张四成功
+Wed, 02 May 2018 17:39:27 TestMail126AddContacts.py[line:220] INFO 126邮箱添加联系人数据驱动开始测试...
+Wed, 02 May 2018 17:39:27 TestMail126AddContacts.py[line:324] INFO 用户shanqm被忽略执行！
+Wed, 02 May 2018 17:39:35 TestMail126AddContacts.py[line:245] INFO 启动浏览器，访问126邮箱主页
+Wed, 02 May 2018 17:39:39 TestMail126AddContacts.py[line:254] INFO 用户shan_5210登录后，断言页面关键字“收 信”成功
+Wed, 02 May 2018 17:39:44 TestMail126AddContacts.py[line:294] INFO 添加联系人zhangyi成功
+Wed, 02 May 2018 17:39:44 TestMail126AddContacts.py[line:308] INFO 断言关键字zhangyi@qq.com成功
+Wed, 02 May 2018 17:39:48 TestMail126AddContacts.py[line:294] INFO 添加联系人张二成功
+Wed, 02 May 2018 17:39:48 TestMail126AddContacts.py[line:308] INFO 断言关键字zhanger@qq.com成功
+Wed, 02 May 2018 17:39:48 TestMail126AddContacts.py[line:311] INFO 联系人zhangsan被忽略执行！
+Wed, 02 May 2018 17:39:53 TestMail126AddContacts.py[line:294] INFO 添加联系人张四成功
+Wed, 02 May 2018 17:39:53 TestMail126AddContacts.py[line:308] INFO 断言关键字张四成功
