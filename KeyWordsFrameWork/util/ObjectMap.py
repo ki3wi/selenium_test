@@ -28,8 +28,8 @@ if __name__ == '__main__':
     print searchBox.tag_name
     aList = getElements(driver,'tag name','a')
     print len(aList)
-    a = lambda y:y.find_element(by='id',value='su')
-    print a
+    #a = lambda y:y.find_element(by='id',value='su')
+    #print a
     time.sleep(4)
     driver.quit()
 
