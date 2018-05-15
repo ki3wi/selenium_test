@@ -26,7 +26,7 @@ wait.until(EC.frame_to_be_available_and_switch_to_it((By.ID,"x-URS-iframe")))
 username = driver.find_element_by_xpath('//input[@name="email"]')
 username.send_keys("shanqm")
 pwd = driver.find_element_by_xpath("//input[@name='password']")
-pwd.send_keys("")
+pwd.send_keys("xxx")
 pwd.send_keys(Keys.RETURN)
 print u'用户登陆..'
 time.sleep(5)
