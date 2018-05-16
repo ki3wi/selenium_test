@@ -25,7 +25,7 @@ def TestSendMailWithAttachment():
     username.send_keys("shanqm")
     print u"输入登录密码"
     pwd = getElement(driver,"xpath","//input[@name='password']")
-    pwd.send_keys("shan5210")
+    pwd.send_keys("xxx")
     pwd.send_keys(Keys.ENTER)
     print u'用户登陆..'
     time.sleep(5)
