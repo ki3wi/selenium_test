@@ -13,9 +13,9 @@ class KeyBoardKeys(object):
         'v': 0x56}
 
     @staticmethod
-    def keyDown(keyNmae):
+    def keyDown(keyName):
         #按下按键
-        win32api.keybd_event(KeyBoardKeys.VK_CODE[keyNmae],0,0,0)
+        win32api.keybd_event(KeyBoardKeys.VK_CODE[keyName],0,0,0)
 
     @staticmethod
     def keyUp(keyName):
